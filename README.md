@@ -51,7 +51,7 @@ From the 'revenue/impression' column we can see that, stores located in Californ
 
 Furthermore, if users can click after browsing, each click will bring different revenues to different stores. From the 'revenue/click' column, it can be seen that the average click revenue of store located in California is the highest, which can reach $759 per click. However, this value is only $215 in New York State, and only $41 in Texas.
 
-Therefore, I think that when we conduct marketing activities, if we have more impressions to more users in California and attract them to click, we can get more revenue than users in New York State and Texas. That's why I think California stores are the most efficient.
+Therefore, I think that when we conduct marketing activities, if we have more impressions to more users in California and attract them to click, we can get more revenue than users in New York State and Texas. That's why I think store in California is the most efficient.
 ​
 
 * Question #5 (Challenge)

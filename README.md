@@ -30,7 +30,8 @@ and geo.
 * Question #4
  In your opinion, what is the most efficient store and why?
 ​
-I think the store which located in California in the most efficient store. We can use the following sql query to get a table like this:
+
+I think the store which located in California is the most efficient store. We can use the following sql query to get a table like this:
 
 >  SELECT b.store_location, a.impressions, a.clicks, b.revenue, (b.revenue/a.impressions), (b.revenue/a.clicks)
 >  FROM
@@ -43,6 +44,14 @@ I think the store which located in California in the most efficient store. We ca
 >  GROUP BY store_location) b
 >  ON a.geo = RIGHT(b.store_location,2)
 >  ORDER BY (b.revenue/a.impressions) DESC, (b.revenue/a.clicks) DESC
+
+![alt text](https://github.com/ireneli0823/Graduate-Leadership-Program-SQL/blob/main/SQL_Challenge_Q4%23.png?raw=true)
+
+From the 'revenue/impression' column we can see that, stores located in California can earn an average of $10 for every exposure, while stores in New York State can only earn $3 per exposure, and stores in Texas can only earn $1 per exposure.
+
+Furthermore, if users can click after browsing, each click will bring different revenues to different stores. From the 'revenue/click' column, it can be seen that the average click revenue of store located in California is the highest, which can reach $759 per click. However, this value is only $215 in New York State, and only $41 in Texas.
+
+Therefore, I think that when we conduct marketing activities, if we have more impressions to more users in California and attract them to click, we can get more revenue than users in New York State and Texas. That's why I think California stores are the most efficient.
 ​
 
 * Question #5 (Challenge)
